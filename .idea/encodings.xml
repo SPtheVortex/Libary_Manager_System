@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/bean/AdminBean.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/bean/BookBean.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/bean/HistoryBean.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/bean/TypeBean.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/dao/AdminDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/dao/BookDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/dao/TypeDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/servlet/AddBookServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/servlet/AddBookTypeServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/servlet/AddUserServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/servlet/AdminServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/servlet/BookListServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/servlet/RegisterServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/servlet/borrowServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/servlet/deleteServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/servlet/deleteTypeServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/servlet/deleteUserServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/servlet/selectServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/servlet/updateBookServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/servlet/updateBookTypeServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/servlet/updateUserServlet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sp/utils/DBUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/Adindex.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/admin.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/admin_book.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/admin_booktype.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/admin_borrow.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/admin_history.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/admin_user.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/asdadas.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/borrow.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/history.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/index.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/index2.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/login.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/register.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/select.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/assets" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/assets/css/ace-ie.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/assets/css/ace-rtl.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/assets/css/ace-skins.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/assets/css/ace.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/assets/css/bootstrap-editable.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/assets/css/bootstrap-timepicker.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/assets/css/bootstrap.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/assets/css/font-awesome-ie7.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/assets/css/font-awesome.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/assets/css/jquery-ui-1.10.3.custom.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/assets/css/jquery-ui-1.10.3.full.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/assets/css/jquery.gritter.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/assets/js/ace-extra.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/fonts" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/img" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/jQuery" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/static/js/jquery.min.js" charset="UTF-8" />
+  </component>
+</project>
