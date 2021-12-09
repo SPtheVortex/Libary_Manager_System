@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8"%>
+         pageEncoding="UTF-8" %>
 <%
     //获取绝对路径路径
     String path = request.getContextPath();
@@ -10,14 +10,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <base href="<%=basePath %>" />
+    <base href="<%=basePath %>"/>
     <title>用户登录</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="static/resource/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="static/resource/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="static/resource/css/ace.min.css" />
-    <link rel="stylesheet" href="static/resource/css/ace-rtl.min.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="static/resource/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="static/resource/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="static/resource/css/ace.min.css"/>
+    <link rel="stylesheet" href="static/resource/css/ace-rtl.min.css"/>
 </head>
 <body class="login-layout">
 <div class="main-container">
@@ -45,13 +45,17 @@
                                         <fieldset>
                                             <label class="block clearfix"> <span
                                                     class="block input-icon input-icon-right"> <input id="userId"
-                                                                                                      input type="text" name="username" class="form-control"
-                                                                                                      placeholder="请输入您的账号" />
+                                                                                                      input type="text"
+                                                                                                      name="username"
+                                                                                                      class="form-control"
+                                                                                                      placeholder="请输入您的账号"/>
 												</span>
                                             </label> <label class="block clearfix"> <span
                                                 class="block input-icon input-icon-right"> <input id="userPw"
-                                                                                                  input type="password" name="password" class="form-control"
-                                                                                                  placeholder="请输入您的密码" />
+                                                                                                  input type="password"
+                                                                                                  name="password"
+                                                                                                  class="form-control"
+                                                                                                  placeholder="请输入您的密码"/>
 												</span>
                                         </label>
 
@@ -62,7 +66,8 @@
                                                 </button>
 
                                             </div>
-                                            <label class="control-label">没有账号请<a href="/demo_war_exploded/register.jsp" style="color:blue;">注册</a></label>
+                                            <label class="control-label">没有账号请<a href="/demo_war_exploded/register.jsp"
+                                                                                 style="color:blue;">注册</a></label>
 
                                             <div class="space-4"></div>
                                         </fieldset>

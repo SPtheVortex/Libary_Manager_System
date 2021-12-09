@@ -83,7 +83,7 @@ admin = admindao.get_AidInfo2(aid);
 	                                <td><%= bean.getAdminname() %></td>
 	                                <td><%= bean.getUsername() %></td>
 	                                <td><%= bean.getBegintime() %></td>
-	                                <td><%= bean.getEndtime() %></td>  
+	                                    <td><%= bean.getEndtime() %></td>
 <td><button type="button" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#updateModal" 
 id="btn_update" onclick="haibook(<%= bean.getHid() %>)">还书</button>
 	</td>                                            
@@ -101,6 +101,7 @@ id="btn_update" onclick="haibook(<%= bean.getHid() %>)">还书</button>
     		location.href = "/demo_war_exploded/borrowServlet?tip=2&show=2&hid="+hid;
     	}
     }
+
     </script>
 </body>
 </html>

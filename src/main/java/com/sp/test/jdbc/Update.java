@@ -1,5 +1,7 @@
 package com.sp.test.jdbc;
+
 import com.sp.utils.PropKit;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
