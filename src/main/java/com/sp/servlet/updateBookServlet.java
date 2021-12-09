@@ -16,19 +16,19 @@ public class updateBookServlet extends HttpServlet {
 
     public updateBookServlet() {
         super();
-        // TODO Auto-generated constructor stub
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // TODO Auto-generated method stub
-//		response.getWriter().append("Served at: ").append(request.getContextPath());
+
+
     }
 
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // TODO Auto-generated method stub
-//		doGet(request, response);
-        //修改图书信息
+
+
+
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
         String card = request.getParameter("card");

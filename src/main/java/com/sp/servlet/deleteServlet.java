@@ -15,14 +15,14 @@ public class deleteServlet extends HttpServlet {
 
     public deleteServlet() {
         super();
-        // TODO Auto-generated constructor stub
+
     }
 
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // TODO Auto-generated method stub
-//		response.getWriter().append("Served at: ").append(request.getContextPath());
-        //删除图书信息
+
+
+
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
         int bid = Integer.parseInt(request.getParameter("bid"));
@@ -33,7 +33,7 @@ public class deleteServlet extends HttpServlet {
 
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // TODO Auto-generated method stub
+
         doGet(request, response);
     }
 
