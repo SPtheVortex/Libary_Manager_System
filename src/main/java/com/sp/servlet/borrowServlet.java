@@ -25,7 +25,6 @@ public class borrowServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 
-
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
         BookDao bookdao = new BookDao();
@@ -47,7 +46,7 @@ public class borrowServlet extends HttpServlet {
         } else {
 
             int hid = Integer.parseInt(request.getParameter("hid"));
-            
+
             int show = Integer.parseInt(request.getParameter("show"));
 
             bookdao.borrowBook2(hid);

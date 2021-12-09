@@ -22,7 +22,6 @@ public class deleteServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 
-
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
         int bid = Integer.parseInt(request.getParameter("bid"));

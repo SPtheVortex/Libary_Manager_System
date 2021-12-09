@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
+
 @WebServlet("/selectServlet")
 public class selectServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
@@ -21,7 +22,6 @@ public class selectServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
 
 
     }

@@ -17,22 +17,21 @@ public class AddBookServlet extends HttpServlet {
 
     public AddBookServlet() {
         super();
-        // TODO Auto-generated constructor stub
+
     }
 
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // TODO Auto-generated method stub
-//		response.getWriter().append("Served at: ").append(request.getContextPath());
+
+
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // TODO Auto-generated method stub
-//		doGet(request, response);
-        //设置编码类型
+
+
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
-        //获取要添加图书的信息
+
         String card = request.getParameter("card");
         String name = request.getParameter("name");
         String type = request.getParameter("type");
@@ -40,7 +39,7 @@ public class AddBookServlet extends HttpServlet {
         String press = request.getParameter("press");
         int num = Integer.parseInt(request.getParameter("num"));
         BookDao bookdao = new BookDao();
-        //调用函数，存入图书
+
         bookdao.addBook(card, name, type, autho, press, num);
         response.sendRedirect("/demo_war_exploded/admin_book.jsp");
     }
