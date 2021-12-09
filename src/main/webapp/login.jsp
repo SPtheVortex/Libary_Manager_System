@@ -29,7 +29,6 @@
                         <h1>
                             <span class="white">图书馆管理系统</span>
                         </h1>
-                        <h4 class="blue"></h4>
                     </div>
                     <div class="space-6"></div>
                     <div class="position-relative">
@@ -38,7 +37,7 @@
                             <div class="widget-body">
                                 <div class="widget-main">
                                     <h4 class="header blue lighter bigger">
-                                        <i class="icon-coffee green"></i> 请输入您的账号和密码
+                                        请输入您的账号和密码
                                     </h4>
 
                                     <div class="space-6"></div>
@@ -47,12 +46,12 @@
                                             <label class="block clearfix"> <span
                                                     class="block input-icon input-icon-right"> <input id="userId"
                                                                                                       input type="text" name="username" class="form-control"
-                                                                                                      placeholder="请输入您的账号" /> <i class="icon-user"></i>
+                                                                                                      placeholder="请输入您的账号" />
 												</span>
                                             </label> <label class="block clearfix"> <span
                                                 class="block input-icon input-icon-right"> <input id="userPw"
                                                                                                   input type="password" name="password" class="form-control"
-                                                                                                  placeholder="请输入您的密码" /> <i class="icon-lock"></i>
+                                                                                                  placeholder="请输入您的密码" />
 												</span>
                                         </label>
 
