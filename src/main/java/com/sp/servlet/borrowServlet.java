@@ -12,9 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-/**
- * 借阅管理
- */
 @WebServlet("/borrowServlet")
 public class borrowServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;

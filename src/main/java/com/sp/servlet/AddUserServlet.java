@@ -9,9 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * 添加用户的基本信息
- */
+
 @WebServlet("/AddUserServlet")
 public class AddUserServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;

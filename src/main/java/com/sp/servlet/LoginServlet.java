@@ -15,22 +15,18 @@ import com.sp.utils.JdbcKit;
 
 public class LoginServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
+
     public LoginServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
 
-    /**
-     * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-     */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // TODO Auto-generated method stub
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
     }
 
-    /**
-     * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-     */
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // TODO Auto-generated method stub
 //		doGet(request, response);
@@ -48,33 +44,33 @@ public class LoginServlet extends HttpServlet {
         boolean result = userdao.Login_verify(username, password);
         HttpSession session = request.getSession();
         //判断输入正确
-        if(result){
+        if (result) {
             AdminBean adminbean = new AdminBean();
             AdminDao admindao = new AdminDao();
             //更加账号和密码查找出读者的信息
-            adminbean = admindao.getAdminInfo(username,password);
+            adminbean = admindao.getAdminInfo(username, password);
             //将aid存入session中
-            session.setAttribute("aid", ""+adminbean.getAid());
+            session.setAttribute("aid", "" + adminbean.getAid());
             //设置session的失效时间
             session.setMaxInactiveInterval(6000000);
             //根据status的值来判断是管理员，还是读者，status=1为读者
-            if(adminbean.getStatus()==1){
+            if (adminbean.getStatus() == 1) {
                 HttpSession session1 = request.getSession();
                 session1.setAttribute("admin", maps.get(0));
                 response.sendRedirect("/demo_war_exploded/admin.jsp");
-            }else{
+            } else {
                 HttpSession session1 = request.getSession();
                 session1.setAttribute("admin", maps.get(0));
                 response.sendRedirect("/demo_war_exploded/Adindex.jsp");
             }
-        }else{
+        } else {
             response.sendRedirect("/demo_war_exploded/login.jsp");
         }
 
     }
 
     public void setCookie(HttpServletResponse response, String key, String value, int
-            maxAgeInSeconds){
+            maxAgeInSeconds) {
         Cookie cookie = new Cookie(key, value);
         cookie.setMaxAge(maxAgeInSeconds);
         response.addCookie(cookie);
