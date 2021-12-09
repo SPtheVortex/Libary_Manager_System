@@ -9,13 +9,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-/**
- * 图书分类的类
- */
+
 public class TypeDao {
-    /**
-     * 获取所有图书类型的信息，返回数组形式
-     */
+    
     public ArrayList<TypeBean> get_ListInfo() {
         ArrayList<TypeBean> tag_Array = new ArrayList<TypeBean>();
         Connection conn = DBUtil.getConnectDb();
@@ -32,7 +28,7 @@ public class TypeDao {
                 tag_Array.add(tag);
             }
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
+
             e.printStackTrace();
         } finally {
             DBUtil.CloseDB(rs, stm, conn);
@@ -40,11 +36,9 @@ public class TypeDao {
         return tag_Array;
     }
 
-    /**
-     * 修改图书分类的信息
-     */
+    
     public void updateTypeBook(int tid, String name) {
-        // TODO Auto-generated method stub
+
         Connection conn = DBUtil.getConnectDb();
         String sql = "update booktype set name=? where tid=?";
         PreparedStatement stm = null;
@@ -54,16 +48,14 @@ public class TypeDao {
             stm.setInt(2, tid);
             stm.executeUpdate();
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
+
             e.printStackTrace();
         }
     }
 
-    /**
-     * 添加一个图书分类
-     */
+    
     public void addBookType(String name) {
-        // TODO Auto-generated method stub
+
         Connection conn = DBUtil.getConnectDb();
         String sql = "insert  into booktype(name) values(?)";
         int rs = 0;
@@ -74,16 +66,14 @@ public class TypeDao {
             ;
             rs = stm.executeUpdate();
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
+
             e.printStackTrace();
         }
     }
 
-    /**
-     * 删除一个图书分类
-     */
+    
     public void deleteBookType(int tid) {
-        // TODO Auto-generated method stub
+
         Connection conn = DBUtil.getConnectDb();
         String sql = "delete from booktype where tid=?";
         PreparedStatement stm = null;
@@ -92,10 +82,10 @@ public class TypeDao {
             stm.setInt(1, tid);
             stm.executeUpdate();
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
+
             e.printStackTrace();
         }
-        //System.out.println(uid);
+
 
     }
 }
