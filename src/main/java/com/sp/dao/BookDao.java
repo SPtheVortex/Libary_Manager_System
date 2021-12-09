@@ -194,11 +194,8 @@ public class BookDao {
             stm.setInt(1, bid);
             stm.executeUpdate();
         } catch (SQLException e) {
-
             e.printStackTrace();
         }
-
-
     }
 
     

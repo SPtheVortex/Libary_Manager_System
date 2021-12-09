@@ -65,9 +65,6 @@ admin = admindao.get_AidInfo2(aid);
                                 <th>操作</th>
                             </tr>
                             </thead>
-                            
-                            
-                            <!---在此插入信息-->
                              <%
                              ArrayList<HistoryBean> bookdata = new ArrayList<HistoryBean>();
                              bookdata = (ArrayList<HistoryBean>)request.getAttribute("data");
@@ -101,7 +98,6 @@ id="btn_update" onclick="haibook(<%= bean.getHid() %>)">还书</button>
     		location.href = "/demo_war_exploded/borrowServlet?tip=2&show=2&hid="+hid;
     	}
     }
-
     </script>
 </body>
 </html>

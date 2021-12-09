@@ -15,11 +15,8 @@ import java.io.IOException;
 @WebServlet("/borrowServlet")
 public class borrowServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
-
-
     public borrowServlet() {
         super();
-
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

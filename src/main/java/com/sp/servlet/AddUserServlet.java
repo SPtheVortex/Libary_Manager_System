@@ -14,12 +14,10 @@ import java.io.IOException;
 public class AddUserServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
-
     public AddUserServlet() {
         super();
 
     }
-
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -27,7 +25,6 @@ public class AddUserServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
 
 
         request.setCharacterEncoding("UTF-8");

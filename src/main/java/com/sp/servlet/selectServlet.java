@@ -38,6 +38,7 @@ public class selectServlet extends HttpServlet {
         BookDao bookdao = new BookDao();
         ArrayList<BookBean> data = bookdao.getLikeList(name);
 
+
         request.setAttribute("data", data);
         String url = "";
 

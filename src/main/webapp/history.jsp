@@ -65,7 +65,7 @@ admin = admindao.get_AidInfo2(aid);
                         	   bookdata = (ArrayList<HistoryBean>)bookdao.get_HistoryListInfo(0,aid);
                            }
   for (HistoryBean bean : bookdata){
-  %>                 
+  %>
                             	<tbody>
 	                         	   	<td><%= bean.getCard() %></td>
 	                         	   	<td><%= bean.getBookname() %></td>

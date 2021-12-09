@@ -48,9 +48,7 @@
             </a>
 
             <a class="navbar-brand"><small>您好，尊敬的管理员</small><a class="navbar-brand"><small>${admin.username}</small></a></a>
-            <!-- /.brand -->
         </div>
-        <!-- /.navbar-header -->
 
         <div class="navbar-header pull-right" role="navigation">
             <ul class="nav ace-nav">
@@ -60,9 +58,7 @@
             </ul>
 
         </div>
-        <!-- /.navbar-header -->
     </div>
-    <!-- /.container -->
 </div>
 
 <div class="main-container" id="main-container">
@@ -88,7 +84,6 @@
                     <a href="/demo_war_exploded/admin_book.jsp" target="mainframe" class="mainframe">
                         <span class="menu-text"> 图书管理 </span>
                     </a>
-
                 </li>
 
                 <li>
@@ -118,7 +113,6 @@
 
                 </li>
             </ul>
-            <!-- /.nav-list -->
         </div>
 
         <div class="main-content" id="mains">

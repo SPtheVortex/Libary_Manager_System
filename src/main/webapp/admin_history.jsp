@@ -58,7 +58,6 @@ admin = admindao.get_AidInfo2(aid);
                                 <th>还书日期</th>
                             </tr>
                             </thead>
-                            <!---在此插入信息-->
                              <%
                              ArrayList<HistoryBean> bookdata = new ArrayList<HistoryBean>();
                              bookdata = (ArrayList<HistoryBean>)request.getAttribute("data");

@@ -20,7 +20,6 @@ public class UserFilter implements Filter {
         excludeurls = split;
     }
 
-    // /login.jsp,/login,/**.cs
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain
             chain) throws IOException, ServletException {

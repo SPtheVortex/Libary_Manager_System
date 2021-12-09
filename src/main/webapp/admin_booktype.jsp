@@ -102,7 +102,6 @@
 	<script type="text/javascript">
 		function showInfo2(tid) {
 			document.getElementById("updatetid").value = tid;
-			// document.getElementById("updatename").value = name;
 		}
 		function deletebook(tid) {
 			con=confirm("是否删除?");
@@ -112,11 +111,6 @@
 		}
 	</script>
 
-
-	<!-- 修改模态框（Modal） -->
-	<!-------------------------------------------------------------->
-
-	<!-- 修改模态框（Modal） -->
 	<form class="form-horizontal" method="post" action="<%=request.getContextPath()%>/updateBookTypeServlet">   <!--保证样式水平不混乱-->
 		<div class="modal" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="updateModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
@@ -134,11 +128,11 @@
 						<!---------------------表单-------------------->
 
 						<div class="form-group">
-							<label for="firstname" class="col-sm-3 control-label">图书名称</label>
+							<label  class="col-sm-3 control-label">图书名称</label>
 							<div class="col-sm-7">
 								<input type="hidden" name="tid" id="updatetid">
 								<input type="text" class="form-control" id="updatename" name="name"  placeholder="请输入图书分类名称">
-								<label class="control-label" for="updateBookName" style="display: none;"></label>
+								<label class="control-label"style="display: none;"></label>
 							</div>
 						</div>
 
@@ -182,7 +176,7 @@
 						<!---------------------表单-------------------->
 
 						<div class="form-group">
-							<label for="firstname" class="col-sm-3 control-label">分类名称</label>
+							<label class="col-sm-3 control-label">分类名称</label>
 							<div class="col-sm-7">
 								<input type="text" class="form-control" id="addBookName" required="required" name="name"  placeholder="请输入图书分类名称">
 								<label class="control-label" for="addBookName" style="display: none;"></label>
